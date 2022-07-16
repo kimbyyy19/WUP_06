@@ -165,9 +165,22 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 
 ```
 
+Based on the Chi’s squared test above, the p-value is low at 0.0007036. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups’ attitude, a series of fisher’s exact tests are conducted. This p-value is comparably larger than than the one from the master branch, and this is because this branch has less data which will therefore show less difference. 
+
+
+
+
+
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 # Discussion and Conclusion
