@@ -185,3 +185,10 @@ Therefore, some of the racial groups' attitudes towards capital punishment are d
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+
+The graphical and numerical descriptive results, along with the inferential results, all show that attitude towards capital punishment is dependent on race. White, black, and other racial groups provided varying responses on whether they are in favor of or are opposed to capital punishment. Therefore, we reject the null hypothesis and claim that there is a relationship between attitude towards capital punishment and race.
+
+Comparing it to the other data set of the other branch, this difference in attitude towards capital punishment is smaller due to the fact that this data set contains less data points than the other. Generally, less data points would provide less difference, and this is exhibited by this data set.
+
