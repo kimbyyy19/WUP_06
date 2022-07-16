@@ -99,7 +99,7 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 ```{r}
-fisherXY = function(x, y, confL = 0, printAll=FALSE){
+fisherXY = function(x, y, confL = 0, printAll=TRUE){
   # Inputs: 
   #   x: factor variable, 2 levels
   #   y: factor variable, n levels
