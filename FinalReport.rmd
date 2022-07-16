@@ -172,7 +172,7 @@ Based on the Chi’s squared test above, the p-value is low at 1.027e-14. This m
 fisherXY(mydata$cappun,mydata$race)
 ```
  
- Based on the Fisher XY tests above, which compare two racial groups at a time, we can tell that the attitudes of white and black people toward capital punishment are different based on the low p-value of 5.75e-14. The attitudes of white and others toward capital punishment, on the other hand, are the same based on the p-value of 1. And lastly, the attitudes of black people are others are also different based on the low p-value of 0.02479.
+ Based on the Fisher XY tests above, which compare two racial groups at a time, we can tell that the attitudes of white and black people toward capital punishment are different based on the low p-value of 5.75e-14. The attitudes of white and others toward capital punishment, on the other hand, are the same based on the p-value of 0.0002819 . And lastly, the attitudes of black people are others are also different based on the low p-value of 0.02479.
   
   
 Therefore, some of the racial groups' attitudes towards capital punishment are different from the rest. However, comparing this with the branch with more data, there is less difference in terms of attitude towards capital punishment due to the smaller number of data in this branch. Nevertheless, the data above still support the claim that attitude towards capital punishment is dependent on race. 
