@@ -78,9 +78,9 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
-The first table compares the percentages of people who are in favor of and are opposed to capital punishment per racial group. It specifies that 68.23% of white people are in favor of capital punishment while 31.77% are opposed to it. Meanwhile, 49.55% of black people are in favor of capitol punishment while 50.45% are opposed to it. For other racial groups, however, 68.75% are in favor while 31.25% are opposed. Therefore, the first table shows that white and other racial groups are generally in favor of capital punishment while black people are opposed to it.
+The first table compares the percentages of people who are in favor of and are opposed to capital punishment per racial group. It specifies that 67.98% of white people are in favor of capital punishment while 32.02% are opposed to it. Meanwhile, 46.29% of black people are in favor of capitol punishment while 53.71% are opposed to it. For other racial groups, however, 55.87% are in favor while 44.13% are opposed. Therefore, the first table shows that white and other racial groups are generally in favor of capital punishment while black people are opposed to it.
   
-The second table, on the other hand, shows the percentages of racial groups that make up the population of people who are in favor of and are opposed to capitol punishment, respectively. Because there are more white people compared to other racial groups, they make up most of the population who are in favor and are opposed to capitol punishment, with 76.09% and 66.80%, respectively. And because there are less number of black people and others in the sample, they make up less of the population who are in favor and are opposed to capitol punishment.    
+The second table, on the other hand, shows the percentages of racial groups that make up the population of people who are in favor of and are opposed to capitol punishment, respectively. Because there are more white people compared to other racial groups, they make up most of the population who are in favor and are opposed to capitol punishment, with 78.34% and 63.24%, respectively. And because there are less number of black people and others in the sample, they make up less of the population who are in favor and are opposed to capitol punishment.    
   
 
 ## Inferential Results
@@ -165,14 +165,14 @@ fisherXY = function(x, y, confL = 0, printAll=TRUE){
 
 ```
 
-Based on the Chi’s squared test above, the p-value is low at 0.0007036. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups’ attitude, a series of fisher’s exact tests are conducted. This p-value is comparably larger than than the one from the master branch, and this is because this branch has less data which will therefore show less difference. 
+Based on the Chi’s squared test above, the p-value is low at 1.027e-14. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups’ attitude, a series of fisher’s exact tests are conducted. This p-value is comparably larger than than the one from the master branch, and this is because this branch has less data which will therefore show less difference. 
 
 
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
- Based on the Fisher XY tests above, which compare two racial groups at a time, we can tell that the attitudes of white and black people toward capital punishment are different based on the low p-value of 0.0002738. The attitudes of white and others toward capital punishment, on the other hand, are the same based on the p-value of 1. And lastly, the attitudes of black people are others are also different based on the low p-value of 0.01143.
+ Based on the Fisher XY tests above, which compare two racial groups at a time, we can tell that the attitudes of white and black people toward capital punishment are different based on the low p-value of 5.75e-14. The attitudes of white and others toward capital punishment, on the other hand, are the same based on the p-value of 1. And lastly, the attitudes of black people are others are also different based on the low p-value of 0.02479.
   
   
 Therefore, some of the racial groups' attitudes towards capital punishment are different from the rest. However, comparing this with the branch with more data, there is less difference in terms of attitude towards capital punishment due to the smaller number of data in this branch. Nevertheless, the data above still support the claim that attitude towards capital punishment is dependent on race. 
