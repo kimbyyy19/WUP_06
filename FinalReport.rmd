@@ -168,15 +168,14 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 Based on the Chi’s squared test above, the p-value is low at 0.0007036. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups’ attitude, a series of fisher’s exact tests are conducted. This p-value is comparably larger than than the one from the master branch, and this is because this branch has less data which will therefore show less difference. 
 
 
-
-
-
-
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
- 
+ Based on the Fisher XY tests above, which compare two racial groups at a time, we can tell that the attitudes of white and black people toward capital punishment are different based on the low p-value of 0.0002738. The attitudes of white and others toward capital punishment, on the other hand, are the same based on the p-value of 1. And lastly, the attitudes of black people are others are also different based on the low p-value of 0.01143.
+  
+  
+Therefore, some of the racial groups' attitudes towards capital punishment are different from the rest. However, comparing this with the branch with more data, there is less difference in terms of attitude towards capital punishment due to the smaller number of data in this branch. Nevertheless, the data above still support the claim that attitude towards capital punishment is dependent on race. 
  
  
  
