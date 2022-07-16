@@ -99,7 +99,7 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
-Based on the Chi's squared test above, the p-value is low at 1.027e-14. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups' attitude, a series of fisher's exact tests are conducted
+Based on the Chi's squared test above, the p-value is low at 1.027e-14. This means that we can reject the null hypothesis that states that attitude towards capital punishment is independent of race. To further elaborate on the data and compare each racial groups' attitude, a series of fisher's exact tests are conducted.
 
 
 
