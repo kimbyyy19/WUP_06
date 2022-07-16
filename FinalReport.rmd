@@ -63,7 +63,9 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+Based on the graph showing the counts of people in favor and opposed to capital punishment, there is a significantly larger number of white people who are in favor of capital punishment compared to other racial groups. Meanwhile, about half of the number of white people who agreed to capital punishment oppose it. African Americans, on the other hand, generally oppose capital punishment while other racial groups appear to be in favor of it but not to the same extent as white people.  
 
+The second graph, meanwhile, shows the percentage of people in each racial groups that are in favor and are opposed to capital punishment. It shows that more than 60% of white people agree to capital punishment while less than 40% are opposed to it. More than half of black people are opposed to capital punishment, and more than half of other racial groups are in favor of it. 
 
 ### Numerical Descriptive Results
 
@@ -79,7 +81,7 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
-
+This graph is showing results in numbers, in both results the white race has the biggest majority with being in favor of capitol punishment with 67% and 78% being in favor and having smaller percentages opposed. The second highest was the other races being in favor and lastly the black race was the most opposed. 
 
 ## Inferential Results
 
